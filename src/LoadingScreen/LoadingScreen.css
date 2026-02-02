@@ -1,0 +1,175 @@
+/* .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #01021e;
+  background-color: red;
+}
+
+.animated-logo {
+  width: 300px;
+  height: auto;
+  background-color: yellow;
+}
+
+.path {
+  transform-origin: center;
+  animation: protator 3s infinite ease-in-out;
+}
+
+.path1,
+.path2,
+.path3,
+.path4 {
+  transform-origin: center;
+}
+
+.path1 {
+  animation: protator1 1.5s infinite ease reverse;
+}
+
+.path3 {
+  animation: protator1 1.5s infinite ease reverse;
+  animation-delay: 1.5s;
+}
+
+.path2 {
+  animation: protator1 1.5s infinite ease alternate;
+}
+
+.path4 {
+  animation-delay: 1.5s;
+  animation: protator1 1.5s infinite ease alternate;
+}
+
+@keyframes protator1 {
+  0% {
+    fill-opacity: 1;
+    transform: rotate(0deg) scale(0.8);
+  }
+  50% {
+    fill-opacity: 0;
+    transform: rotate(360deg) scale(1.1);
+  }
+  100% {
+    fill-opacity: 1;
+    transform: rotate(0deg) scale(0.8);
+  }
+} */
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #01021e;
+  /* background-color: red; */
+  position: fixed;
+  z-index: 9999;
+}
+
+.animated-logo {
+  width: 20vh;
+  height: auto;
+  overflow: visible;
+  /* background-color: rgb(0, 34, 255); */
+}
+
+.path1,
+.path2,
+.path3,
+.path4 {
+  transform-origin: center;
+  stroke-dasharray: 300; /* Set this to the total length of the path */
+  stroke-dashoffset: 300; /* Initially hidden */
+  stroke-width: 0.2;
+  fill-opacity: 0%;
+}
+
+.path1,
+.path3 {
+  stroke: #52a5e3;
+  filter: drop-shadow(0 0 1px #52a4e3) drop-shadow(0 0 1px #52a4e3)
+    drop-shadow(0 0 5px #52a4e3);
+  animation: draw 2.2s ease-in-out forwards,
+    fillColor 1s ease-in-out 1s forwards, scaler 2.25s ease-in-out 1.5s infinite;
+}
+
+.path2,
+.path4 {
+  stroke: #dfecf3;
+  filter: drop-shadow(0 0 1px #dfecf3) drop-shadow(0 0 1px #dfecf3)
+    drop-shadow(0 0 5px #dfecf3);
+  animation: draw 2.2s ease-in-out forwards,
+    fillColor 1s ease-in-out 1s forwards,
+    scalerWhite 2.25s ease-in-out 1.5s infinite;
+}
+
+/* Animation for drawing the path */
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 300; /* Start fully hidden */
+  }
+  100% {
+    stroke-dashoffset: 0; /* Path fully revealed */
+  }
+}
+
+/* Animation for filling the shape */
+@keyframes fillColor {
+  0% {
+    stroke-width: 0.2;
+    fill-opacity: 0%;
+  }
+  99% {
+    fill-opacity: 100%;
+  }
+  100% {
+    fill-opacity: 100%;
+    stroke-width: 0;
+    /* fill-opacity: 0%; */
+    /* stroke-dashoffset: 300; */
+  }
+}
+
+@keyframes scaler {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 1px #52a4e3) drop-shadow(0 0 1px #52a4e3)
+      drop-shadow(0 0 5px #52a4e3);
+  }
+
+  50% {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 0px #52a4e3) drop-shadow(0 0 0px #52a4e3)
+      drop-shadow(0 0 0px #52a4e3);
+  }
+
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 1px #52a4e3) drop-shadow(0 0 1px #52a4e3)
+      drop-shadow(0 0 5px #52a4e3);
+  }
+}
+
+@keyframes scalerWhite {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 1px #dfecf3) drop-shadow(0 0 1px #dfecf3)
+      drop-shadow(0 0 5px #dfecf3);
+  }
+
+  50% {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0px #dfecf3) drop-shadow(0 0 0px #dfecf3)
+      drop-shadow(0 0 0px #dfecf3);
+  }
+
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 1px #dfecf3) drop-shadow(0 0 1px #dfecf3)
+      drop-shadow(0 0 5px #dfecf3);
+  }
+}

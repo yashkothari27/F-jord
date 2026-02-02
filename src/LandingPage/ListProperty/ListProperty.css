@@ -1,0 +1,360 @@
+.listPropertyBox {
+  display: flex;
+  cursor: default;
+  z-index: 112;
+  padding-top: 80px;
+  min-height: 100vh;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-default);
+  /* background-color: red; */
+}
+
+.listPropertySpotLight {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 500px;
+  z-index: 100;
+  height: 500px;
+  opacity: 0.37;
+  filter: blur(170px);
+  background: var(--text-default);
+  transform: translate(50%, 50%) scale(1);
+}
+
+.listPropertyContainer {
+  display: flex;
+  gap: 45px;
+  width: 80%;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+  /* background-color: purple; */
+}
+
+.listPropertyHeading {
+  /* width: 60%; */
+  line-height: 1.1;
+  font-weight: 600;
+  font-size: 3.2em;
+  text-align: left;
+  letter-spacing: -1.3px;
+  color: var(--text-default);
+  /* background-color: orange; */
+}
+
+.listPropertyPara {
+  font-size: 1.2em;
+  text-align: left;
+  /* background-color: green; */
+}
+
+.listPropertyCardBox {
+  display: flex;
+  gap: 4%;
+  margin: 35px 0 10px 0px;
+  align-items: center;
+  /* background-color: yellow; */
+  justify-content: space-between;
+}
+
+.listPropertyCard {
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.listPropertyNewImageBox {
+  gap: 1%;
+  width: 100%;
+  display: flex;
+  /* background-color: yellow; */
+}
+
+.listPropertyNewImageBig {
+  width: 50%;
+  /* background-color: yellowgreen; */
+}
+
+.listPropertyNewImageGrid {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2%;
+}
+
+.listPropertyNewImageBig > img,
+.listPropertyNewImageGrid > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 14/9;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* .listPropertyCard > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+} */
+
+.listPropertyCardContent {
+  display: grid;
+  /* width: 30%; */
+  margin-top: 20px;
+  /* background-color: brown; */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.listPropertyCardName {
+  overflow: hidden;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  color: var(--text-default);
+  /* background-color: violet; */
+}
+
+.listPropertyCardPercentage {
+  text-align: end;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: tomato; */
+}
+
+.listPropertyCardAddress {
+  /* overflow: hidden; */
+  font-size: 0.8em;
+  width: max-content;
+  text-decoration: underline;
+  text-overflow: ellipsis;
+  /* background-color: blue; */
+  transition: all 0.2s ease-in-out;
+}
+
+.listPropertyCardAddress:hover {
+  font-size: 0.8em;
+  text-decoration: underline;
+  /* transform: translateY(-1px); */
+  color: var(--text-default);
+}
+
+.listPropertyCardPercentageName {
+  text-align: end;
+  overflow: hidden;
+  font-size: 0.8em;
+  text-overflow: ellipsis;
+  /* background-color: sandybrown; */
+}
+
+.listPropertyBtn {
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 8px 30px;
+  background: var(--text-default);
+}
+
+/* mobile start */
+@media (max-width: 640px) {
+  .listPropertyBox {
+    padding-top: 10%;
+    padding-bottom: 15%;
+    /* background-color: red; */
+  }
+
+  .listPropertyContainer {
+    gap: 15px;
+    width: 85%;
+    /* background-color: purple; */
+  }
+
+  .listPropertyHeading {
+    width: 100%;
+    font-size: 1.8em;
+    letter-spacing: -1px;
+    /* background-color: rgb(0, 255, 0); */
+  }
+
+  .listPropertyPara {
+    /* margin: 0 15px; */
+    font-size: 0.95em;
+    /* background-color: green; */
+  }
+
+  .listPropertyCardBox {
+    gap: 15vw;
+    margin: 10px 0px 15px 0px;
+    flex-direction: column;
+    /* background-color: yellow; */
+  }
+
+  .listPropertyCard {
+    width: 100%;
+    /* background-color: aqua; */
+  }
+
+  .listPropertyNewImageBig {
+    width: 100%;
+  }
+
+  .listPropertyNewImageGrid {
+    display: none;
+  }
+
+  /* .listPropertyCard:nth-child(odd) {
+    margin-right: 15vw;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .listPropertyCard:nth-child(even) {
+    margin-left: 15vw;
+    background-color: red;
+  } */
+
+  .listPropertyCardContent {
+    margin-top: 0px;
+    gap: 2px;
+  }
+
+  .listPropertyCardName,
+  .listPropertyCardPercentage {
+    font-size: 1em;
+    line-height: 1.1;
+  }
+
+  .listPropertyCardAddress,
+  .listPropertyCardPercentageName {
+    font-size: 0.7em;
+    line-height: 1.1;
+  }
+
+  .listPropertySpotLight {
+    overflow: hidden;
+    filter: blur(100px);
+    width: 250px;
+    height: 250px;
+    opacity: 0.4;
+    bottom: -20px;
+    right: -20px;
+    /*  */
+  }
+}
+/* mobile end */
+
+/* tablet start */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .listPropertyBox {
+    padding-top: 10%;
+    min-height: auto;
+    /* min-height: 180vw; */
+    padding-bottom: 10%;
+    /* background-color: red; */
+  }
+
+  .listPropertyContainer {
+    gap: 40px;
+    width: 80%;
+    /* background-color: purple; */
+  }
+
+  .listPropertyHeading {
+    width: 100%;
+    font-size: 2.6em;
+    /* background-color: rgb(0, 255, 0); */
+  }
+
+  .listPropertyPara {
+    font-size: 1.2em;
+  }
+
+  .listPropertyCardBox {
+    margin: 0px;
+    gap: 6vw;
+    flex-direction: column;
+    /* background-color: yellow; */
+  }
+
+  .listPropertyCard {
+    width: 100%;
+    /* width: 50%; */
+    /* background-color: aqua; */
+  }
+
+  /* .listPropertyCard:nth-child(odd) {
+    margin-right: 30vw;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .listPropertyCard:nth-child(even) {
+    margin-left: 30vw;
+    background-color: red;
+  } */
+
+  .listPropertyCardContent {
+    margin-top: 0px;
+    gap: 2px;
+    padding: 5px 10px 10px 5px;
+    /* border-radius: 10px;
+    border: 1px solid #414141de;
+    border-top: none;
+    border-left: none; */
+    /* background-color: red; */
+  }
+
+  .listPropertyCardName,
+  .listPropertyCardPercentage {
+    font-size: 1.4em;
+    line-height: 1.1;
+    font-weight: 500;
+  }
+
+  .listPropertyCardAddress,
+  .listPropertyCardPercentageName {
+    font-size: 0.9em;
+    line-height: 1.1;
+  }
+
+  .listPropertySpotLight {
+    overflow: hidden;
+    filter: blur(100px);
+    width: 250px;
+    height: 250px;
+    opacity: 0.4;
+    bottom: -20px;
+    right: -20px;
+    /*  */
+    /* position: absolute;
+    z-index: 100;
+    background: var(--text-default);
+    transform: translate(50%, 50%) scale(1); */
+  }
+
+  .listPropertyBtn {
+    font-size: 1.05em;
+  }
+}
+/* tablet end */
+
+/* smaller laptop start */
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .listPropertyBox {
+    min-height: auto;
+    padding-bottom: 30px;
+    /*  */
+  }
+
+  .listPropertyContainer {
+    width: 75%;
+    gap: 20px;
+    /* background-color: purple; */
+  }
+
+  .listPropertyCardBox {
+    gap: 25px;
+    margin: 35px 0px 15px 0px;
+  }
+}
+/* smaller laptop end */

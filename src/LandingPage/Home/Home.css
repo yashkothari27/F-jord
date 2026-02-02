@@ -1,0 +1,688 @@
+.homeBox {
+  height: 100vh;
+  min-height: 100vh;
+  cursor: default;
+  padding-bottom: 8vh;
+  /* background-color: rgb(17, 255, 0); */
+}
+
+/*  */
+/* Modal Styles for Video */
+.videoBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Overlay effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+
+  /* Initially hidden */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+/* Show the modal when the .active class is applied */
+.videoBackdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.videoModalContent {
+  background-color: rgba(255, 255, 255, 0.482);
+  background-color: #3ea8f899;
+  padding: 40px;
+  padding: 2.5%;
+  border-radius: 12px;
+  position: relative;
+  width: 600px;
+  width: 40%;
+  text-align: center;
+  box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.1); /* Adding shadow for depth */
+}
+
+.videoCloseButton {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.videoCloseButton:hover {
+  scale: 1.2;
+  color: red;
+}
+
+.showVideoButton {
+  font-size: 18px;
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.showVideoButton img {
+  margin-left: 10px;
+}
+
+/* Video Container */
+.videoContainer {
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  position: relative;
+}
+
+.videoContainer iframe {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*  */
+
+.homeBackgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; /* Position behind content */
+}
+
+.homeSpotLight {
+  position: absolute;
+  pointer-events: none;
+  top: -80px;
+  left: -30px;
+  opacity: 0.42;
+  z-index: 100;
+  width: 420px;
+  height: 460px;
+  filter: blur(170px);
+  background: var(--text-default);
+}
+
+.homeColorLight1 {
+  position: absolute;
+  top: 110px;
+  width: 260px;
+  right: -10px;
+  opacity: 0.8;
+  z-index: 100;
+  height: 220px;
+  filter: blur(35px);
+  border-radius: 50%;
+  background: #664088;
+}
+
+.homeColorLight2 {
+  position: absolute;
+  width: 280px;
+  top: 110px;
+  right: 220px;
+  z-index: 100;
+  opacity: 0.35;
+  height: 220px;
+  filter: blur(35px);
+  border-radius: 50%;
+  background: #00c3ff;
+}
+
+.homeLinerGradient {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  left: 0%;
+  bottom: 0%;
+  opacity: 0.15;
+  z-index: 100;
+  filter: blur(20px);
+  background-color: var(--text-default);
+}
+
+/* .homeLinerGradientBlocker {
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  left: 0%;
+  bottom: -4%;
+  z-index: 110;
+  background-color: var(--bg-default);
+} */
+
+.homeContainer {
+  width: 79%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-image: url("../../assets/Images/homeBg.png"); */
+  /* background-size: 130%; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+}
+
+.homeLHS {
+  width: 60%;
+  height: 55%;
+  gap: 5%;
+  display: flex;
+  padding: 25px;
+  margin-bottom: 2.5%;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  background-color: #00000000;
+  /* background-color: rgba(255, 255, 255, 0.152); */
+  /* background-color: orange; */
+  /* justify-content: space-between; */
+  justify-content: center;
+}
+
+.homeHeading {
+  margin-top: 2px;
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -1.6px;
+  /* color: #091433; */
+}
+
+.homePara {
+  font-weight: bold;
+  font-size: 1.6em;
+  /* color: var(--text-default); */
+  margin-bottom: 8px;
+  /* background-color: green; */
+}
+
+.homeBtnBox {
+  width: 63%;
+  display: flex;
+  font-size: 0.96em;
+  align-items: center;
+  /* background-color: yellow; */
+  justify-content: space-between;
+}
+
+.homeBtnBox > a > button:first-child {
+  /* border-bottom: 1px solid #316bde; */
+  transition: all 0.2s linear;
+  background-color: #091433;
+}
+
+.homeBtnBox > a > button:first-child:hover {
+  background-color: var(--text-default);
+  /* border-bottom: 1px solid var(--text-default); */
+}
+
+.homeBtnBox > button:last-child {
+  display: flex;
+  gap: 3px;
+  padding: 0px;
+  background: none;
+  font-size: 0.875em;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-default);
+  background-color: transparent;
+}
+
+.homeBtnBox > button:hover:last-child {
+  background: transparent;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 1px 1px 45px 0px rgba(255, 255, 255, 0);
+  -moz-box-shadow: 1px 1px 45px 0px rgba(255, 255, 255, 0);
+  box-shadow: 1px 13px 35px 0px #ffffff16;
+}
+
+.homeBtnBox > button > img {
+  width: 17px;
+  height: 17px;
+  margin-left: 4px;
+  /* background-color: yellow; */
+}
+
+.homeRHS {
+  width: 36%;
+  z-index: 101;
+  margin-top: 24px;
+  margin-right: 6%;
+  position: relative;
+  /* background-color: rgb(132, 6, 6); */
+}
+
+.homeRHS > img {
+  width: 100%;
+  z-index: inherit;
+  position: inherit;
+  object-fit: cover;
+  /* mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0) 80%
+  ); */
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.homeMarq {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+.homeMarq > .homeMarquee-wrapper {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: orange; */
+}
+
+.homeMarq > .homeMarquee-wrapper > img {
+  width: 9em;
+  height: auto;
+  aspect-ratio: 16/9;
+  /* background-color: green; */
+}
+
+/* small mobile start */
+@media (max-height: 700px) {
+  .homeBox {
+    height: 120vh !important;
+    min-height: 120vh !important;
+  }
+}
+
+/* mobile start */
+@media (max-width: 1023px) {
+  .homeBox {
+    height: 90vh;
+    min-height: 90vh;
+    padding-bottom: 0vh;
+  }
+
+  /* .homeBox { */
+  /* height: auto; */
+  /* display: flex; */
+  /* gap: 40px; */
+  /* min-height: 80vh; */
+  /* flex-direction: column; */
+  /* background-color: red; */
+  /* } */
+
+  .homeContainer {
+    gap: 40px;
+    height: auto;
+    /* margin: auto auto 0px auto; */
+    /* flex-direction: column-reverse; */
+    /* background-color: #071e25; */
+  }
+
+  .homeLHS {
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+    /* background-color: red; */
+  }
+
+  .homeHeading {
+    margin-top: 0px;
+    font-size: 1.9em;
+    letter-spacing: -0.2px;
+  }
+
+  .homePara {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .homeBtnBox {
+    width: 100%;
+    font-size: 0.8em;
+  }
+
+  .homeBtnBox > button:last-child {
+    font-size: 0.95em;
+  }
+
+  .homeRHS {
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 20%;
+    margin-right: 0%;
+  }
+
+  .homeRHS > img {
+    width: 90%;
+    margin: auto;
+  }
+
+  .homeMarq {
+    width: 100%;
+    position: relative;
+    /* background-color: red; */
+  }
+
+  .homeMarq > .homeMarquee-wrapper {
+    gap: 0;
+    display: flex;
+    -webkit-animation: scroll 10s linear infinite;
+    -moz-animation: scroll 10s linear infinite;
+    animation: scroll 10s linear infinite;
+  }
+
+  .homeMarq > .homeMarquee-wrapper > img {
+    width: 7.5em;
+  }
+
+  @-webkit-keyframes scroll {
+    0% {
+      -webkit-transform: translateX(3%);
+      transform: translateX(3%);
+    }
+    100% {
+      -webkit-transform: translateX(-47%);
+      transform: translateX(-47%);
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      -webkit-transform: translateX(3%);
+      transform: translateX(3%);
+    }
+    100% {
+      -webkit-transform: translateX(-47%);
+      transform: translateX(-47%);
+    }
+  }
+
+  .homeSpotLight {
+    width: 160px;
+    height: 160px;
+    left: -35px;
+    top: -35px;
+    filter: blur(30px);
+    opacity: 0.35;
+  }
+
+  .homeColorLight1 {
+    top: 130px;
+    right: 10px;
+    width: 170px;
+    height: 130px;
+  }
+
+  .homeColorLight2 {
+    top: 130px;
+    right: 150px;
+    width: 150px;
+    height: 130px;
+  }
+
+  .homeLinerGradient {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0%;
+    bottom: 15%;
+    z-index: 111;
+    opacity: 0.15;
+    filter: blur(20px);
+    background-color: var(--text-default);
+  }
+
+  /* 
+  .homeLinerGradientBlocker {
+    height: 30px;
+    bottom: 0%;
+  } */
+}
+/* mobile end */
+
+/* Tablet start */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .videoModalContent {
+    padding: 6%;
+    width: 60%;
+  }
+
+  .videoCloseButton {
+    top: 0px;
+    right: 10px;
+    font-size: 2em;
+  }
+
+  .homeBox {
+    height: 90vh;
+    min-height: 90vh;
+    /* background-color: #316bde; */
+  }
+
+  .homeContainer {
+    gap: 25px;
+    height: auto;
+    /* margin: auto auto 0px auto; */
+    /* background-color: #071e25; */
+    flex-direction: column-reverse;
+  }
+
+  .homeLHS {
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+    /* background-color: red; */
+  }
+
+  .homeHeading {
+    margin-top: 0px;
+    letter-spacing: -0.2px;
+  }
+
+  .homePara {
+    line-height: 1.6;
+    font-size: 1.55em;
+    margin-bottom: 10px;
+  }
+
+  .homeBtnBox {
+    width: 100%;
+    font-size: 1.1em;
+  }
+
+  .homeBtnBox > button:last-child {
+    font-size: 1em;
+  }
+
+  .homeRHS {
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 10%;
+    margin-right: 0%;
+  }
+
+  .homeRHS > img {
+    width: 65%;
+    margin: auto;
+  }
+
+  .homeMarq {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    /* background-color: red; */
+  }
+
+  .homeMarq > .homeMarquee-wrapper {
+    gap: 10px;
+  }
+
+  .homeMarq > .homeMarquee-wrapper > img {
+    width: 7em;
+  }
+
+  .homeSpotLight {
+    width: 190px;
+    height: 190px;
+    left: -35px;
+    top: -35px;
+    filter: blur(30px);
+    opacity: 0.35;
+  }
+
+  .homeColorLight1 {
+    top: 140px;
+    right: 80px;
+    width: 250px;
+    height: 220px;
+    filter: blur(50px);
+  }
+
+  .homeColorLight2 {
+    top: 140px;
+    left: 50px;
+    width: 290px;
+    height: 200px;
+    filter: blur(70px);
+  }
+
+  .homeLinerGradient {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0%;
+    bottom: 7%;
+    opacity: 0.15;
+    z-index: 111;
+    filter: blur(20px);
+    background-color: var(--text-default);
+  }
+
+  /* 
+  .homeLinerGradientBlocker {
+    height: 30px;
+    bottom: 0%;
+  } */
+}
+/* Tablet end */
+
+/* smaller laptop start */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .homeBox {
+    height: 70vh;
+    min-height: 50vh;
+    /* background-color: #316bde; */
+  }
+
+  .homeContainer {
+    /* width: 85%; */
+    /* width: 90%; */
+    height: 100%;
+    /* background-color: red; */
+  }
+
+  .homeLHS {
+    gap: 35px;
+    width: 100%;
+    height: auto;
+    /*  */
+  }
+
+  .homePara {
+    font-size: 1.6em;
+  }
+
+  .homeBtnBox {
+    width: 90%;
+    font-size: 1.1em;
+    /* background-color: red; */
+    /*  */
+  }
+
+  .homeRHS {
+    width: 0%;
+    margin-top: 0px;
+    margin-right: 0%;
+    /*  */
+    /* background-color: rgb(132, 6, 6); */
+  }
+
+  .homeMarq {
+    width: 100%;
+  }
+
+  .homeMarq > .homeMarquee-wrapper {
+    gap: 5px;
+    width: 100%;
+  }
+
+  .homeColorLight1 {
+    top: 60px;
+    right: 20px;
+    width: 300px;
+    height: 270px;
+    /*  */
+  }
+
+  .homeColorLight2 {
+    top: 80px;
+    width: 280px;
+    right: 200px;
+    filter: blur(50px);
+    /*  */
+  }
+}
+/* smaller laptop end */
+
+/* medium laptop start */
+@media (min-width: 1280px) and (max-width: 1400px) {
+  /* .homeBox {
+    height: 90vh;
+    min-height: 90vh;
+    background-color: #316bde;
+  } */
+
+  .homeBtnBox {
+    width: 90%;
+    /* background-color: red; */
+    /*  */
+  }
+
+  .homeColorLight1 {
+    top: 50px;
+    right: 0px;
+  }
+
+  .homeColorLight2 {
+    top: 70px;
+    right: 180px;
+  }
+}
+/* medium laptop end */

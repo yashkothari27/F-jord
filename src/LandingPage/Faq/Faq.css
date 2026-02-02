@@ -1,0 +1,192 @@
+.faqBox {
+  margin-top: 6%;
+  cursor: default;
+  margin-bottom: 5%;
+  position: relative;
+  /* background-color: red; */
+}
+
+.faqContainer {
+  display: flex;
+  gap: 27px;
+  width: 79%;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: green; */
+}
+
+.faqCardBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faqCard {
+  display: flex;
+  gap: 20px;
+  width: 350px;
+  height: auto;
+  padding: 25px;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-direction: column;
+  text-overflow: ellipsis;
+  border: 1px solid #7f7d7dde;
+  border-right: none;
+  border-bottom: none;
+  background: linear-gradient(
+    120.29deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  /* background-color: rgb(104, 0, 0); */
+}
+
+.faqCardName {
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1.7em;
+  letter-spacing: -0.3px;
+  /* background-color: rgb(139, 0, 253); */
+}
+
+/* .faqCardPara {
+  background-color: rgb(240, 0, 253);
+} */
+
+.faqCardQuestion {
+  display: block;
+  line-height: 1.2;
+  font-size: 0.95em;
+  margin-bottom: 10px;
+  color: var(--text-default);
+  /* background-color: aqua; */
+}
+
+/* mobile start */
+@media (max-width: 1023px) {
+  /* .faqBox {
+    margin-top: 6%;
+    cursor: default;
+    margin-bottom: 5%;
+    position: relative;
+    background-color: red;
+  } */
+
+  .faqContainer {
+    width: 80%;
+    gap: 0px;
+    /*  */
+  }
+
+  .faqCardBox {
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    /*  */
+  }
+
+  .faqCard {
+    gap: 5px;
+    width: 100%;
+    height: auto;
+    padding: 18px;
+    /*  */
+  }
+
+  .faqCardName {
+    font-size: 1.2em;
+    line-height: normal;
+    margin-bottom: 10px;
+    /*  */
+  }
+
+  .faqCardQuestion {
+    line-height: 1.1;
+    font-size: 0.9em;
+    /*  */
+  }
+
+  .faqCardPara {
+    line-height: 1.2;
+  }
+}
+/* mobile end */
+
+/* tablet start */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .faqBox {
+    margin-top: 0%;
+    /* margin-bottom: 0%; */
+  }
+
+  .faqContainer {
+    width: 70%;
+    /*  */
+  }
+
+  .faqCardBox {
+    gap: 35px;
+    /*  */
+  }
+
+  .faqCard {
+    gap: 10px;
+    padding: 15px;
+    /*  */
+  }
+
+  .faqCardName {
+    font-size: 1.75em;
+    /*  */
+  }
+
+  .faqCardQuestion {
+    font-size: 1.1em;
+    /*  */
+  }
+}
+/* tablet end */
+
+/* smaller laptop start */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .faqBox {
+    margin-top: 9%;
+    margin-bottom: 2%;
+    /*  */
+  }
+
+  .faqContainer {
+    width: 85%;
+    /*  */
+  }
+
+  .faqCard {
+    gap: 10px;
+    width: 250px;
+    padding: 20px;
+    height: auto;
+    /*  */
+
+    /* background-color: rgb(104, 0, 0); */
+  }
+
+  .faqCardName {
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1.25;
+    letter-spacing: 0px;
+    /*  */
+    /* background-color: rgb(139, 0, 253); */
+  }
+
+  .faqCardQuestion {
+    line-height: 1.75;
+    font-size: 0.8em;
+    margin-bottom: 0px;
+    /*  */
+  }
+}
+/* smaller laptop end */

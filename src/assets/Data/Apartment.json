@@ -1,0 +1,987 @@
+[
+  {
+    "id": 1,
+    "title": "Neuberggata 31, Majorstuen, Oslo. 5 floor Norway",
+    "location": "Oslo, Norway",
+    "market": "Oslo",
+    "category": "Single Family",
+    "previewImage": "/Images/MarketPlace/1stApartment/1stApartment1.jpg",
+    "token": 5525,
+    "tokenPrice": 49,
+    "rentalYeild": "15.2%",
+    "annualReturn": "15.0%",
+    "featureTag": "New Listing",
+    "active": true,
+    "mapLink": "https://maps.app.goo.gl/uM7BqqSzjMw6kD117",
+    "highlights": [
+      { "icon": "home", "text": "Guest Rooms" },
+      { "icon": "Rule", "text": "143,281 sf" },
+      { "icon": "land", "text": "Luxury Hotel" }
+    ],
+    "iFrameModalLink": "https://my.matterport.com/show/?m=EMCdsmrUamh&cloudEdit=1&ss=16&sr=-2.55,-1.28",
+    "sliderImages": [
+      "/Images/MarketPlace/1stApartment/1stApartment1.jpg",
+      "/Images/MarketPlace/1stApartment/1stApartment2.jpg",
+      "/Images/MarketPlace/1stApartment/1stApartment3.jpg",
+      "/Images/MarketPlace/1stApartment/1stApartment4.jpg",
+      "/Images/MarketPlace/1stApartment/1stApartment5.jpg",
+      "/Images/MarketPlace/1stApartment/1stApartment6.jpg",
+      "/Images/MarketPlace/1stApartment/1stApartment7.jpg",
+      "/Images/MarketPlace/1stApartment/1stApartment8.jpg"
+    ],
+    "financialItems": [
+      { "label": "Projected Annual Return", "value": "25.99%" },
+      { "label": "Absolute return – 3 years", "value": "100.00%" },
+      { "label": "Start token price", "value": "$0.018" },
+      { "label": "Projected token price after 3 years", "value": "$0.036" }
+    ],
+    "documents": [
+      {
+        "icon": "FileText",
+        "text": "Lease Abstract",
+        "link": "https://1drv.ms/b/s!As4PlGRBkB7phzaS9eY7ia2bASV_?e=JhcNeP"
+      },
+      {
+        "icon": "Layout",
+        "text": "Floor Plan",
+        "link": "https://1drv.ms/b/s!As4PlGRBkB7phzcHqxvnpGA_VQv2?e=4WHUK8"
+      },
+      {
+        "icon": "Building",
+        "text": "Oslo Hotel",
+        "link": "https://1drv.ms/b/s!As4PlGRBkB7phzqJT9HXXzxaCbRw?e=wHGkc4"
+      },
+      {
+        "icon": "Grid",
+        "text": "Room Types",
+        "link": "https://1drv.ms/x/s!As4PlGRBkB7phzhquHcPUdtVtvhF?e=gSfCdp"
+      },
+      {
+        "icon": "BarChart",
+        "text": "Hotel Reports",
+        "link": "https://1drv.ms/x/s!As4PlGRBkB7phzkGGxzFrVMScL-n?e=Wp80AJ"
+      }
+    ],
+    "about": "Its located at the Neuberggata 31, Majorstuen, Oslo. 5 floor Norway , is an architectural gem standing tall in the heart of Lower Manhattan’s Financial District. Built in 2010, it offers stunning panoramic views of the bustling urban and unparalleled access to prime real estate in the area.",
+    "details": [
+      {
+        "heading": "Property Overview",
+        "items": [
+          "Its located at the Neuberggata 31, Majorstuen, Oslo. 5 floor Norway , is an architectural gem standing tall in the heart of Lower Manhattan’s Financial District.",
+          "Built in 2010.",
+          "Stunning panoramic views and prime real estate access."
+        ]
+      },
+      {
+        "heading": "Interior & Layout",
+        "items": [
+          "217 luxurious guest rooms with modern amenities.",
+          "11,118 sq ft of leasable retail space.",
+          "Total gross area of 143,281 square feet combining hospitality, retail, and event spaces."
+        ]
+      },
+      {
+        "heading": "Furnishings & Appliances",
+        "items": [
+          "Lobby bar/restaurant retail condominium unit for dining and entertainment.",
+          "Mezzanine level for events and dining with ample outdoor seating.",
+          "State-of-the-art facilities, including modern design and advanced infrastructure."
+        ]
+      },
+      {
+        "heading": "Legal & Lease Info",
+        "items": [
+          "Liberty Bond Enhancement offering sub-3% interest rates.",
+          "Matures in October 2042."
+        ]
+      },
+      {
+        "heading": "Amenities",
+        "items": [
+          "Luxury hotel environment.",
+          "Guest rooms, retail spaces, and dining areas.",
+          "Event-friendly infrastructure.",
+          "Architectural landmark with financial district prominence."
+        ]
+      },
+      {
+        "heading": "Neighborhood & Utilities",
+        "items": [
+          "Located in the Financial District.",
+          "Access to 1, R, W, 4, 5, A, C, E, J, Z subway lines and PATH system."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Very spacious 5-room penthouse in the middle of the city!",
+    "location": "Kongens gate 11, 3210 Sandefjord",
+    "market": "Sandefjord",
+    "category": "Multi Family",
+    "previewImage": "/Images/MarketPlace/2ndApartment/2ndApartment1.webp",
+    "token": 2000000,
+    "tokenPrice": 0.475,
+    "rentalYeild": "13.2%",
+    "annualReturn": "15.7%",
+    "featureTag": "80% Sold",
+    "active": true,
+    "mapLink": "https://share.google/OkhFmt5W7T5VZFDQC",
+    "highlights": [
+      { "icon": "home", "text": "Luxury Penthouse" },
+      { "icon": "Rule", "text": "5 Rooms" },
+      { "icon": "land", "text": "Private Roof Terrace" }
+    ],
+    "iFrameModalLink": null,
+    "sliderImages": [
+      "/Images/MarketPlace/2ndApartment/2ndApartment1.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment2.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment3.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment4.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment5.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment6.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment7.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment8.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment9.webp",
+      "/Images/MarketPlace/2ndApartment/2ndApartment10.webp"
+    ],
+    "financialItems": [
+      { "label": "Rent Per Month (EUR)", "value": "€1,572.50" },
+      { "label": "Appraisal Value (EUR)", "value": "€807,500.00" },
+      { "label": "Rent Per Month (NOK)", "value": "kr. 18,500" },
+      { "label": "Appraisal Value (NOK)", "value": "kr. 9,500,000" },
+      { "label": "Total Tokens", "value": "2,000,000" },
+      { "label": "Token Price", "value": "€0.40375" }
+    ],
+    "documents": null,
+    "about": "This is Section 10, H0401. Rent: €1,572.50 (kr 18,500) per month. Assessment: €807,500.00 (NOK 9,500,000). Rare penthouse apartment in the middle of Sandefjord city center. 5-room spacious layout with private roof terrace, parking, and elevator access.",
+    "details": [
+      {
+        "heading": "Property Overview",
+        "items": [
+          "This is Section 10, H0401.",
+          "Rent: €1,572.50 (18,500 kr) per month.",
+          "Assessment: €807,500.00 (NOK 9,500,000).",
+          "Rare penthouse apartment in the middle of Sandefjord city center.",
+          "5-room spacious layout with private roof terrace, parking, and elevator access.",
+          "Centrally located within walking distance to shops, restaurants, cinema, and public transport.",
+          "Bus stop across the street. Short walk to train and bus stations.",
+          "Direct access to Torp Airport, Oslo, Tønsberg, and Larvik."
+        ]
+      },
+      {
+        "heading": "Interior & Layout",
+        "items": [
+          "Multi-level floor plan:",
+          "3rd floor: Entry and WC.",
+          "4th floor: 3 living rooms, 2 bedrooms, kitchen, 2 bathrooms, laundry.",
+          "5th floor: Tower-style loft room with wood-burning stove and 360-degree panoramic windows.",
+          "2 spacious bedrooms with storage and wardrobes.",
+          "2 bathrooms with WC, shower, and underfloor heating.",
+          "Separate laundry room included."
+        ]
+      },
+      {
+        "heading": "Furnishings & Appliances",
+        "items": [
+          "Rented unfurnished.",
+          "Integrated appliances: combination fridge, dishwasher, stove, hob.",
+          "Intercom available in building.",
+          "Non-smoking apartment."
+        ]
+      },
+      {
+        "heading": "Legal & Lease Info",
+        "items": [
+          "Lease term: 01.12.2024 – 30.11.2027.",
+          "Binding period until 31.08.2025. 3-month notice required by either party.",
+          "Up to 1 month's rent due at contract signing.",
+          "Security deposit: 3 months' rent in separate tenant account.",
+          "Tenant manages own electricity subscription.",
+          "Rent includes water, sewage, and parking.",
+          "Case Number: 35359/0304-24.",
+          "Cadastral Info: Municipality no. 3804, Farm no. 172, Usage no. 162, Section no. 0."
+        ]
+      },
+      {
+        "heading": "Amenities",
+        "items": [
+          "Elevator",
+          "Balcony and large private roof terrace",
+          "Private dedicated parking space",
+          "Wood-burning stove and heat pump",
+          "Unfurnished",
+          "Internet access - available",
+          "Central location with city view",
+          "Quiet neighborhood",
+          "Parquet flooring",
+          "Energy rating G",
+          "Non-smoking",
+          "Intercom"
+        ]
+      },
+      {
+        "heading": "Neighborhood & Utilities",
+        "items": [
+          "Surrounded by Hvaltorvet shopping center, cafes, restaurants, and cultural centers like Hjertnes.",
+          "Heating: Electric with underfloor heating in bathroom and laundry room.",
+          "Wood-burning stove included."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bright and nice apartment in the city center",
+    "location": "Kongens gate 11, 3210 Sandefjord",
+    "market": "Sandefjord",
+    "category": "Commercial",
+    "previewImage": "/Images/MarketPlace/3rdApartment/3rdApartment1.webp",
+    "token": 50000,
+    "tokenPrice": 6.29,
+    "rentalYeild": "13.4%",
+    "annualReturn": "12.4%",
+    "featureTag": "72% Sold",
+    "active": true,
+    "mapLink": "https://share.google/OkhFmt5W7T5VZFDQC",
+    "highlights": [
+      { "icon": "home", "text": "1 Bedroom Apartment" },
+      { "icon": "Rule", "text": "Large Balcony" },
+      { "icon": "land", "text": "Elevator Access" }
+    ],
+    "iFrameModalLink": null,
+    "sliderImages": [
+      "/Images/MarketPlace/3rdApartment/3rdApartment1.webp",
+      "/Images/MarketPlace/3rdApartment/3rdApartment2.webp",
+      "/Images/MarketPlace/3rdApartment/3rdApartment3.webp",
+      "/Images/MarketPlace/3rdApartment/3rdApartment4.webp",
+      "/Images/MarketPlace/3rdApartment/3rdApartment5.webp",
+      "/Images/MarketPlace/3rdApartment/3rdApartment6.webp",
+      "/Images/MarketPlace/3rdApartment/3rdApartment7.webp",
+      "/Images/MarketPlace/3rdApartment/3rdApartment8.webp",
+      "/Images/MarketPlace/3rdApartment/3rdApartment9.webp"
+    ],
+    "financialItems": [
+      { "label": "Rent Per Month (EUR)", "value": "€892.50" },
+      { "label": "Appraisal Value (EUR)", "value": "€314,500.00" },
+      { "label": "Rent Per Month (NOK)", "value": "kr. 10,500" },
+      { "label": "Appraisal Value (NOK)", "value": "kr. 3,700,000" },
+      { "label": "Total Tokens", "value": "50,000" },
+      { "label": "Token Price", "value": "€6.29" }
+    ],
+    "documents": null,
+    "about": "Section 7. H0302. rent €892.50 (kr.10,500) per month. Appraisal €314,500.00 (NOK 3,700,000). Bright and nice apartment in the city center with large balcony, white goods, and elevator. Available immediately. Water and sewage costs are included in the rent.",
+    "details": [
+      {
+        "heading": "Property Overview",
+        "items": [
+          "Kongens gate 11 is located in the middle of Sandefjord city center.",
+          "Seksjon 7. H0302.",
+          "Monthly rent: €892.50 (10,500 kr).",
+          "Assessment value: €314,500.00 (NOK 3,700,000).",
+          "The building appears to be well maintained and with an established and good living environment.",
+          "The apartment was newly painted in 2023 and has a very large living room and sleeping alcove.",
+          "Direct access to a large balcony.",
+          "Solid and well-maintained building.",
+          "Very centrally located.",
+          "Available immediately.",
+          "Unfurnished.",
+          "Possibility of renting parking in the courtyard."
+        ]
+      },
+      {
+        "heading": "Interior & Layout",
+        "items": [
+          "Entrance hall, large storage room, sleeping alcove, living room with open kitchen.",
+          "Large balcony directly accessible from the apartment."
+        ]
+      },
+      {
+        "heading": "Furnishings & Appliances",
+        "items": [
+          "Rented unfurnished.",
+          "Integrated appliances: combination fridge, dishwasher, stove, hob.",
+          "Intercom available in building."
+        ]
+      },
+      {
+        "heading": "Legal & Lease Info",
+        "items": [
+          "Lease period: 01.05.2024 - 30.04.2027.",
+          "Binding period until 31.01.2025.",
+          "3-month notice required by either party.",
+          "Up to 1 month's rent due at contract signing.",
+          "Security deposit: 3 months' rent in separate tenant account.",
+          "Tenant signs own electricity subscription.",
+          "Rent includes water and sewage costs.",
+          "Case Number: 36104/0073-24.",
+          "Cadastral Info: Municipality no. 3804, Farm no. 172, Usage no. 162, Section no. 0."
+        ]
+      },
+      {
+        "heading": "Amenities",
+        "items": [
+          "Elevator",
+          "Large private balcony",
+          "Unfurnished",
+          "Internet access - available",
+          "Central location",
+          "City view",
+          "Modern design",
+          "Cable TV connection",
+          "Non-smoking",
+          "Intercom"
+        ]
+      },
+      {
+        "heading": "Neighborhood & Utilities",
+        "items": [
+          "The apartment is centrally located in Sandefjord city center.",
+          "Walking distance to shops, restaurants, public transport.",
+          "Nearby: Hjertnes cinema, shopping center, cafes, fitness centers.",
+          "Hvaltorvet shopping center offers clothing, groceries, and more.",
+          "Bars and restaurants on the Sandefjord pier.",
+          "Bus stop directly across the street.",
+          "Short walk to both train and bus stations with routes across Vestfold.",
+          "Direct train access to Torp Airport, Tønsberg, Larvik, Drammen, and Oslo.",
+          "25 min drive to Tønsberg, 20 min to Larvik, 1h25 to Oslo.",
+          "Electric heating throughout.",
+          "Energy rating: G"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Large and bright 3-bedroom apartment in the city center",
+    "location": "Kongens gate 11, 3210 Sandefjord",
+    "market": "Sandefjord",
+    "category": "Vacation Rentals",
+    "previewImage": "/Images/MarketPlace/4thApartment/4thApartment1.webp",
+    "token": 100000,
+    "tokenPrice": 3.71,
+    "rentalYeild": "8.9%",
+    "annualReturn": "11.8%",
+    "featureTag": "68% Sold",
+    "active": true,
+    "mapLink": "https://share.google/OkhFmt5W7T5VZFDQC",
+    "highlights": [
+      { "icon": "home", "text": "2 Bedroom Apartment" },
+      { "icon": "Rule", "text": "90 sqm | Balcony" },
+      { "icon": "land", "text": "Elevator Access" }
+    ],
+    "iFrameModalLink": null,
+    "sliderImages": [
+      "/Images/MarketPlace/4thApartment/4thApartment1.webp",
+      "/Images/MarketPlace/4thApartment/4thApartment2.webp",
+      "/Images/MarketPlace/4thApartment/4thApartment3.webp",
+      "/Images/MarketPlace/4thApartment/4thApartment4.webp",
+      "/Images/MarketPlace/4thApartment/4thApartment5.webp",
+      "/Images/MarketPlace/4thApartment/4thApartment6.webp",
+      "/Images/MarketPlace/4thApartment/4thApartment7.webp",
+      "/Images/MarketPlace/4thApartment/4thApartment8.webp",
+      "/Images/MarketPlace/4thApartment/4thApartment9.webp"
+    ],
+    "financialItems": [
+      { "label": "Rent Per Month (EUR)", "value": "€1,062.50" },
+      { "label": "Appraisal Value (EUR)", "value": "€371,450.00" },
+      { "label": "Rent Per Month (NOK)", "value": "kr. 12,500" },
+      { "label": "Appraisal Value (NOK)", "value": "kr. 4,370,000" },
+      { "label": "Total Tokens", "value": "100,000" },
+      { "label": "Token Price", "value": "€3.71" }
+    ],
+    "documents": null,
+    "about": "H0202 rent €1,062.50 (kr.12,500) per month. Appraisal €371,450.00 (NOK 4,370,000). Large and bright 2-bedroom apartment in the city center with balcony, white goods, and elevator. Available immediately. Water and sewage costs included in rent.",
+    "details": [
+      {
+        "heading": "Property Overview",
+        "items": [
+          "Kongens gate 11 is located in the middle of Sandefjord city center.",
+          "Section H0202",
+          "Monthly rent: €1,062.50 (12,500 kr).",
+          "Assessment value: €371,450.00 (NOK 4,370,000)",
+          "The apartment is freshly painted, spacious and bright with a large balcony.",
+          "Spacious entrance hall with cupboards.",
+          "Living room with open kitchen and access to balcony.",
+          "2 bedrooms and a spacious bathroom with shower and WC.",
+          "Includes internal storage room.",
+          "Solid and well-maintained apartment building.",
+          "Very centrally located.",
+          "Unfurnished.",
+          "Available immediately.",
+          "Possibility to rent parking space in backyard for €63.75(NOK 750)/month."
+        ]
+      },
+      {
+        "heading": "Interior & Layout",
+        "items": [
+          "Entrance hall, 2 bedrooms, living room with open kitchen, bathroom, and storage room.",
+          "Large balcony facing backyard.",
+          "Approx. 90 sqm usable area."
+        ]
+      },
+      {
+        "heading": "Furnishings & Appliances",
+        "items": [
+          "Rented unfurnished.",
+          "Integrated white goods: dishwasher, stove, hob.",
+          "Intercom available in building."
+        ]
+      },
+      {
+        "heading": "Legal & Lease Info",
+        "items": [
+          "Lease period: 01.06.2023 – 31.05.2026.",
+          "Binding period until 29.02.2024.",
+          "3-month notice required by either party.",
+          "Up to 1 month's rent due at contract signing.",
+          "Security deposit: 3 months' rent in separate tenant account.",
+          "Tenant manages own electricity subscription.",
+          "Rent includes water and sewage costs.",
+          "Case Number: 36606/0100-23.",
+          "Cadastral Info: Municipality no. 3804, Farm no. 172, Usage no. 162, Section no. 0."
+        ]
+      },
+      {
+        "heading": "Amenities",
+        "items": [
+          "Elevator",
+          "Large balcony",
+          "Unfurnished",
+          "Internet access - available",
+          "Cable TV connection",
+          "Central location",
+          "City view",
+          "Modern design",
+          "Non-smoking",
+          "Intercom"
+        ]
+      },
+      {
+        "heading": "Neighborhood & Utilities",
+        "items": [
+          "The apartment is centrally located in Sandefjord city center.",
+          "Walking distance to shops, restaurants, public transport.",
+          "Nearby: Hjertnes cinema, shopping center, cafes, fitness centers.",
+          "Hvaltorvet shopping center offers clothing, groceries, and more.",
+          "Bars and restaurants on the Sandefjord pier.",
+          "Bus stop directly across the street.",
+          "Short walk to both train and bus stations with routes across Vestfold.",
+          "Direct train access to Torp Airport, Tønsberg, Larvik, Drammen, and Oslo.",
+          "25 min drive to Tønsberg, 20 min to Larvik, 1h25 to Oslo.",
+          "Electric heating throughout.",
+          "Energy rating: G"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Freshly painted and nice apartment in the city center ",
+    "location": "Kongens gate 11, 3210 Sandefjord",
+    "market": "Sandefjord",
+    "category": "Single Family",
+    "previewImage": "/Images/MarketPlace/5thApartment/5thApartment1.webp",
+    "token": 37647,
+    "tokenPrice": 7.226,
+    "rentalYeild": "10.2%",
+    "annualReturn": "9.7%",
+    "featureTag": "52% Sold",
+    "active": false,
+    "mapLink": "https://share.google/OkhFmt5W7T5VZFDQC",
+    "highlights": [
+      { "icon": "home", "text": "1 Bedroom Apartment" },
+      { "icon": "Rule", "text": "Large Balcony" },
+      { "icon": "land", "text": "Elevator Access" }
+    ],
+    "iFrameModalLink": null,
+    "sliderImages": [
+      "/Images/MarketPlace/5thApartment/5thApartment1.webp",
+      "/Images/MarketPlace/5thApartment/5thApartment2.webp",
+      "/Images/MarketPlace/5thApartment/5thApartment3.webp",
+      "/Images/MarketPlace/5thApartment/5thApartment4.webp",
+      "/Images/MarketPlace/5thApartment/5thApartment5.webp",
+      "/Images/MarketPlace/5thApartment/5thApartment6.webp",
+      "/Images/MarketPlace/5thApartment/5thApartment7.webp",
+      "/Images/MarketPlace/5thApartment/5thApartment8.webp",
+      "/Images/MarketPlace/5thApartment/5thApartment9.webp"
+    ],
+    "financialItems": [
+      { "label": "Rent Per Month (EUR)", "value": "€850.00" },
+      { "label": "Appraisal Value (EUR)", "value": "€272,000.00" },
+      { "label": "Rent Per Month (NOK)", "value": "kr. 10,000" },
+      { "label": "Appraisal Value (NOK)", "value": "kr. 3,200,000" },
+      { "label": "Total Tokens", "value": "37,647" },
+      { "label": "Token Price", "value": "€7.226" }
+    ],
+    "documents": null,
+    "about": "H0203. rent €850.00 (kr.10,000) per month. Appraisal €272,000.00 (NOK 3,200,000). Freshly painted and nice apartment in the city center with large balcony, white goods, and elevator. Available immediately. Water and sewage costs are included in the rent.",
+    "details": [
+      {
+        "heading": "Property Overview",
+        "items": [
+          "Kongens gate 11 is located in the middle of Sandefjord city centre.",
+          "Seksjon H0203.",
+          "Monthly rent: €850.00 (10,000 kr).",
+          "Assessment value: €272,000.00 (NOK 3,200,000).",
+          "The apartment is freshly painted and appears to be very bright and pretty.",
+          "Very large living room and sleeping alcove.",
+          "Solid and well-maintained building.",
+          "Very centrally located.",
+          "Large balcony.",
+          "Cable TV and internet available via Sandefjord broadband.",
+          "Available immediately.",
+          "Unfurnished."
+        ]
+      },
+      {
+        "heading": "Interior & Layout",
+        "items": [
+          "Entrance hall, large storage room, sleeping alcove, living room with open kitchen."
+        ]
+      },
+      {
+        "heading": "Furnishings & Appliances",
+        "items": [
+          "Rented unfurnished.",
+          "Integrated appliances: combination fridge, dishwasher, stove, hob.",
+          "Intercom available in building."
+        ]
+      },
+      {
+        "heading": "Legal & Lease Info",
+        "items": [
+          "Lease period: 15.03.2023 – 14.03.2026.",
+          "Binding period until 31.12.2023.",
+          "3-month notice required by either party.",
+          "Up to 1 month's rent due at contract signing.",
+          "Security deposit: 3 months' rent in separate tenant account.",
+          "Tenant signs their own electricity subscription.",
+          "Rent includes water and sewage costs.",
+          "Case Number: 36104/0043-23.",
+          "Cadastral Info: Municipality no. 3804, Farm no. 172, Usage no. 162, Section no. 0."
+        ]
+      },
+      {
+        "heading": "Amenities",
+        "items": [
+          "Elevator",
+          "Large private balcony",
+          "Unfurnished",
+          "Internet access - available",
+          "Central location",
+          "City view",
+          "Modern design",
+          "Cable TV connection",
+          "Non-smoking",
+          "Intercom"
+        ]
+      },
+      {
+        "heading": "Neighborhood & Utilities",
+        "items": [
+          "The apartment is centrally located in Sandefjord city center.",
+          "Walking distance to shops, restaurants, public transport.",
+          "Nearby: Hjertnes cinema, shopping center, cafes, fitness centers.",
+          "Hvaltorvet shopping center offers clothing, groceries, and more.",
+          "Bars and restaurants on the Sandefjord pier.",
+          "Bus stop directly across the street.",
+          "Short walk to both train and bus stations with routes across Vestfold.",
+          "Direct train access to Torp Airport, Tønsberg, Larvik, Drammen, and Oslo.",
+          "25 min drive to Tønsberg, 20 min to Larvik, 1h25 to Oslo.",
+          "Electric heating throughout.",
+          "Energy rating: G"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Newly renovated and large bedroom apartment in the city center",
+    "location": "Kongens gate 11, 3210 Sandefjord",
+    "market": "Sandefjord",
+    "category": "Single Family",
+    "previewImage": "/Images/MarketPlace/6thApartment/6thApartment1.webp",
+    "token": 43529,
+    "tokenPrice": 0.85,
+    "rentalYeild": "12.5%",
+    "annualReturn": "10.2%",
+    "featureTag": "New Listing",
+    "active": true,
+    "mapLink": "https://share.google/z2CeLZqSNGKAR9Ww4",
+    "highlights": [
+      { "icon": "apartment", "text": "2-Bedroom Apartment" },
+      { "icon": "Rule", "text": "Newly Renovated" },
+      { "icon": "elevator", "text": "Elevator Access" }
+    ],
+    "iFrameModalLink": null,
+    "sliderImages": [
+      "/Images/MarketPlace/6thApartment/6thApartment1.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment2.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment3.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment4.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment5.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment6.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment7.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment8.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment9.webp",
+      "/Images/MarketPlace/6thApartment/6thApartment10.webp"
+    ],
+    "financialItems": [
+      { "label": "Rent Per Month (EUR)", "value": "€910.00" },
+      { "label": "Appraisal Value (EUR)", "value": "€314,500.00" },
+      { "label": "Rent Per Month (NOK)", "value": "kr. 10,700" },
+      { "label": "Appraisal Value (NOK)", "value": "kr. 3,700,000" },
+      { "label": "Total Tokens", "value": "370,000" },
+      { "label": "Token Price", "value": "€0.85" }
+    ],
+    "documents": null,
+    "about": "H0304. rent €910.00 (kr.10,700) per month. Appraisal €314,500.00 (NOK 3,700,000). Newly renovated and large 1-bedroom apartment in the city center with white goods and elevator. Available immediately. Water and sewer costs are included in the rent.",
+    "details": [
+      {
+        "heading": "Property Overview",
+        "items": [
+          "Kongens gate 11 is located in the middle of Sandefjord city centre.",
+          "Completely newly renovated with new kitchen, new floors, freshly painted and new bathroom fittings.",
+          "Spacious entrance hall and a hall.",
+          "Living room with windows facing Kongens gate.",
+          "Kitchen with white goods in open solution.",
+          "Spacious bedroom of approx. 20 sq m.",
+          "Spacious bathroom with completely new fittings, shower and toilet.",
+          "Internal storage room with skylight for extra light.",
+          "Solid and well-maintained apartment building.",
+          "Very centrally located.",
+          "Newly renovated.",
+          "Large rooms with a good sense of space.",
+          "Arrangement for cable TV and internet from Sandefjord broadband.",
+          "Available immediately.",
+          "Unfurnished."
+        ]
+      },
+      {
+        "heading": "Interior & Layout",
+        "items": [
+          "Entrance hall, hall, large storage room, bedroom, living room with open kitchen."
+        ]
+      },
+      {
+        "heading": "Furnishings & Appliances",
+        "items": [
+          "The home is rented out unfurnished.",
+          "Integrated white goods: combination refrigerator, dishwasher, stove, hob.",
+          "White kitchen interior with integrated white goods.",
+          "Intercom available in building."
+        ]
+      },
+      {
+        "heading": "Legal & Lease Info",
+        "items": [
+          "Lease period: 01.03.2023 – 28.02.2026.",
+          "Binding period until 30.11.2023.",
+          "3-month notice required by either party.",
+          "Up to 1 month's rent due at contract signing.",
+          "Security deposit: 3 months' rent in separate tenant account.",
+          "Tenant signs their own electricity subscription.",
+          "Rent includes water and sewer costs.",
+          "Case Number: 35854/0015-23.",
+          "Cadastral Info: Municipality no. 3804, Farm no. 172, Usage no. 162, Section no. 0."
+        ]
+      },
+      {
+        "heading": "Amenities",
+        "items": [
+          "Elevator",
+          "Unfurnished",
+          "Internet access - available",
+          "Central location",
+          "City view",
+          "Modern design",
+          "Cable TV connection",
+          "Non-smoking",
+          "Intercom"
+        ]
+      },
+      {
+        "heading": "Neighborhood & Utilities",
+        "items": [
+          "The apartment is centrally located in Sandefjord city center.",
+          "Walking distance to shops, restaurants, public transport.",
+          "Nearby: Hjertnes cinema, shopping center, cafes, fitness centers.",
+          "Hvaltorvet shopping center offers clothing, groceries, and more.",
+          "Bars and restaurants on the Sandefjord pier.",
+          "Bus stop directly across the street.",
+          "Short walk to both train and bus stations with routes across Vestfold.",
+          "Direct train access to Torp Airport, Tønsberg, Larvik, Drammen, and Oslo.",
+          "25 min drive to Tønsberg, 20 min to Larvik, 1h25 to Oslo.",
+          "Electric heating throughout.",
+          "Energy rating: G"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Senior Housing Apartment in Sandefjord City Center with Elevator",
+    "location": "Kongens gate 11, 3210 Sandefjord",
+    "market": "Sandefjord",
+    "category": "Seller Buyback",
+    "previewImage": "/Images/MarketPlace/7thApartment/7thApartment1.webp",
+    "token": 51765,
+    "tokenPrice": 0.085,
+    "rentalYeild": "9.4%",
+    "annualReturn": "9.8%",
+    "featureTag": "New Listing",
+    "active": true,
+    "mapLink": "https://share.google/36EWhZyocrzukMDFX",
+    "highlights": [
+      { "icon": "elderly", "text": "Senior Housing" },
+      { "icon": "elevator", "text": "Elevator Access" },
+      { "icon": "visibility", "text": "City View" }
+    ],
+    "iFrameModalLink": null,
+    "sliderImages": [
+      "/Images/MarketPlace/7thApartment/7thApartment1.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment2.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment3.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment4.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment5.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment6.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment7.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment8.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment9.webp",
+      "/Images/MarketPlace/7thApartment/7thApartment10.webp"
+    ],
+    "financialItems": [
+      { "label": "Rent Per Month (EUR)", "value": "€1,062.50" },
+      { "label": "Appraisal Value (EUR)", "value": "€374,000.00" },
+      { "label": "Rent Per Month (NOK)", "value": "kr. 12,500" },
+      { "label": "Appraisal Value (NOK)", "value": "kr. 4,400,000" },
+      { "label": "Total Tokens", "value": "51,765" },
+      { "label": "Token Price", "value": "€7.22" }
+    ],
+    "documents": null,
+    "about": "This is a H0301 senior-friendly housing apartment located at Kongens gate 11, 3210 Sandefjord. Rent is €1,062.50 (kr. 12,500) per month, and the appraisal value is €374,000.00 (NOK 4,400,000). This centrally located unit offers easy access via elevator and includes common expenses. Available for long-term rental. Ideal for those seeking a calm, modern living experience with essential facilities in close proximity.",
+    "details": [
+      {
+        "heading": "Property Overview",
+        "items": [
+          "Located in the heart of Sandefjord city center, Kongens gate 11.",
+          "Spacious senior housing apartment designed for comfort and accessibility.",
+          "Total primary area of 95 m² with a practical and airy layout.",
+          "Two spacious bedrooms and a calm atmosphere ideal for senior living.",
+          "Rental period starting from 01.04.2013 onward.",
+          "Common expenses are included in the rent.",
+          "Elevator ensures easy access to the 3rd floor."
+        ]
+      },
+      {
+        "heading": "Interior & Layout",
+        "items": [
+          "95 m² layout with 2 bedrooms, bathroom, living room, and open-plan kitchen.",
+          "Parquet flooring and modern finishes throughout.",
+          "Bright living area with good natural light and pleasant views."
+        ]
+      },
+      {
+        "heading": "Furnishings & Appliances",
+        "items": [
+          "Partially furnished with essential fittings.",
+          "Modern kitchen fixtures and clean layout.",
+          "Alarm system, intercom, and janitor/guard service included."
+        ]
+      },
+      {
+        "heading": "Legal & Lease Info",
+        "items": [
+          "Lease start date: 01.04.2013.",
+          "Deposit: 3 months’ rent.",
+          "3-month notice required for termination by either party.",
+          "Rent includes common building expenses.",
+          "Digital lease contract creation available with verified details.",
+          "Cadastral Info: Kongens gate 11, 3210 Sandefjord.",
+          "Story: 3rd floor."
+        ]
+      },
+      {
+        "heading": "Amenities",
+        "items": [
+          "Elevator",
+          "Partially Furnished",
+          "Alarm System",
+          "Balcony/Terrace",
+          "Broadband Internet Available",
+          "Cable TV",
+          "Modern Design",
+          "Central Location",
+          "View of City",
+          "Janitor/Guard Service",
+          "Non-smoking"
+        ]
+      },
+      {
+        "heading": "Neighborhood & Utilities",
+        "items": [
+          "Calm and central residential area in Sandefjord.",
+          "Walking distance to shops, public transport, and services.",
+          "Nearby hiking trails and scenic spots.",
+          "Short walk to bus and train stations.",
+          "Electric heating provided throughout the apartment.",
+          "Convenient access to Sandefjord pier, cafes, and shopping centers."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Attractive Commercial Unit in Sandefjord Pedestrian Street",
+    "location": "Kongens gate 11, 3201 Sandefjord",
+    "market": "Sandefjord",
+    "category": "Commercial",
+    "previewImage": "/Images/MarketPlace/8thApartment/8thApartment1.webp",
+    "token": 63529,
+    "tokenPrice": 0.085,
+    "rentalYeild": "11.7%",
+    "annualReturn": "21.2%",
+    "featureTag": "Exclusive",
+    "active": true,
+    "mapLink": "https://share.google/GBZMb08YPQsUIigBq",
+    "highlights": [
+      { "icon": "store", "text": "390 m² Shop/Trade Space" },
+      { "icon": "garage", "text": "Private Parking Available" },
+      { "icon": "pin", "text": "Prime Pedestrian Zone Location" }
+    ],
+    "iFrameModalLink": null,
+    "sliderImages": [
+      "/Images/MarketPlace/8thApartment/8thApartment1.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment2.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment3.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment4.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment5.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment6.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment7.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment8.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment9.webp",
+      "/Images/MarketPlace/8thApartment/8thApartment10.webp"
+    ],
+    "financialItems": [
+      { "label": "Rent Per Month (EUR)", "value": "€3,825.00" },
+      { "label": "Appraisal Value (EUR)", "value": "€459,000.00" },
+      { "label": "Rent Per Year (NOK)", "value": "kr. 540,000" },
+      { "label": "Appraisal Value (NOK)", "value": "kr. 5,400,000" },
+      { "label": "Total Tokens", "value": "63,529" },
+      { "label": "Token Price", "value": "€0.085" }
+    ],
+    "documents": null,
+    "about": "This commercial property (Section 1) is located in the heart of Sandefjord at Kongens gate 11, one of the city’s busiest pedestrian streets. It offers 390 m² of usable open-plan retail or trade space with additional 170 m² of warehouse area in the basement. Annual rental income is approx. €3,825/month. Private parking is available behind the building, and the premises are immediately available. This is a rare opportunity to acquire a centrally located, high-visibility unit in a vibrant retail district.",
+    "details": [
+      {
+        "heading": "Premises Overview",
+        "items": [
+          "Business section 1 – Business unit with ground floor retail space and basement storage.",
+          "Gross area: 427 m² (390 m² usable).",
+          "Basement: 170 m² (warehouse use).",
+          "Open-plan design located in Sandefjord’s central shopping area.",
+          "Located opposite Salt & Pepper and near Hvaltorvet shopping center.",
+          "Immediate proximity to public transport and city services."
+        ]
+      },
+      {
+        "heading": "Facilities & Standard",
+        "items": [
+          "Simple finish throughout; customizable to tenant needs.",
+          "Private parking available in backyard for employees or customers.",
+          "Access to both private and public parking options.",
+          "Electric heating system currently in place."
+        ]
+      },
+      {
+        "heading": "Availability & Terms",
+        "items": [
+          "Available for immediate occupancy.",
+          "Annual rent: €45,900 (kr. 540,000) (excluding VAT).",
+          "Deposit: 6 months’ rent + common charges (unless otherwise agreed).",
+          "Tenant pays for electricity and shared/common expenses."
+        ]
+      },
+      {
+        "heading": "Local Environment",
+        "items": [
+          "Situated in an active pedestrian street known for its foot traffic and local shopping.",
+          "Close to popular cafes, restaurants, banks, train station, and city attractions.",
+          "Only 100 meters from Sandefjords Blad media house and near public parks.",
+          "7 km from Sandefjord Airport Torp.",
+          "Sandefjord is a modern city retaining its small-town charm with high-end amenities."
+        ]
+      },
+      {
+        "heading": "Legal & Cadastral Information",
+        "items": [
+          "Cadastral: Municipality no. 706, Farm no. 172, Usage no. 162",
+          "Brokers are subject to anti-money laundering laws requiring them to report suspicious activity to Økokrim."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Development Site for 50 Apartments in Sandefjord City Center",
+    "location": "Kongens gate 11, 3201 Sandefjord",
+    "market": "Sandefjord",
+    "category": "Owner Occupied",
+    "previewImage": "/Images/MarketPlace/9thApartment/9thApartment.jpg",
+    "token": 141176,
+    "tokenPrice": 0.085,
+    "rentalYeild": "20%",
+    "annualReturn": "10%",
+    "featureTag": "Future Project",
+    "active": true,
+    "mapLink": "https://share.google/z2CeLZqSNGKAR9Ww4",
+    "highlights": [
+      { "icon": "Build", "text": "Future Development Opportunity" },
+      { "icon": "apartment", "text": "Planned 50 Apartments (~40 sqm each)" },
+      {
+        "icon": "timeline",
+        "text": "Estimated Gross Value: €14,450,000 (kr. 170,000,000)"
+      }
+    ],
+    "iFrameModalLink": null,
+    "sliderImages": ["/Images/MarketPlace/9thApartment/9thApartment.jpg"],
+    "financialItems": [
+      { "label": "Current Appraisal Value (EUR)", "value": "€1,020,000" },
+      { "label": "Estimated Gross Value (EUR)", "value": "€14,450,000" },
+      { "label": "Current Appraisal Value (NOK)", "value": "kr. 12,000,000" },
+      { "label": "Estimated Gross Value (NOK)", "value": "kr. 170,000,000" },
+      { "label": "Total Tokens", "value": "141,176" },
+      { "label": "Token Price", "value": "€0.085" }
+    ],
+    "documents": null,
+    "about": "This is a development-ready parking lot located at Kongens gate 11, 3201 Sandefjord. The property is currently appraised at €1,020,000 (kr. 12,000,000) and is intended to be developed into a residential project consisting of approximately 50 apartments, each around 40 m². The estimated total value after full development is approximately €14,450,000 (kr. 170,000,000). Situated in a prime central location, this property offers an excellent opportunity for long-term investment or joint venture development.",
+    "details": [
+      {
+        "heading": "Development Overview",
+        "items": [
+          "Located at Kongens gate 11, Sandefjord city center.",
+          "Currently a parking lot with official appraisal value of kr. 12,000,000.",
+          "Approved concept includes ~50 apartments of around 40 m² each.",
+          "Projected total property value post-development: kr. 170,000,000."
+        ]
+      },
+      {
+        "heading": "Investment Highlights",
+        "items": [
+          "Rare development plot in Sandefjord’s prime area.",
+          "Ideal for investors seeking mid-size residential developments.",
+          "Tokenized offering allows for fractional investment in development value."
+        ]
+      },
+      {
+        "heading": "Legal & Property Info",
+        "items": [
+          "Property Type: Development Land",
+          "Status: Undeveloped land with current parking use.",
+          "Cadastral Information: Not yet provided."
+        ]
+      }
+    ]
+  }
+]

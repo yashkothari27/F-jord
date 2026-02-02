@@ -1,0 +1,385 @@
+.marketBox {
+  cursor: default;
+  padding-top: 30px;
+  position: relative;
+  /* background-color: red; */
+}
+
+.marketContainer {
+  display: flex;
+  gap: 27px;
+  width: 73%;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.marketHeading {
+  width: 60%;
+  line-height: 1.1;
+  font-weight: 600;
+  font-size: 3.2em;
+  text-align: center;
+  letter-spacing: -1.3px;
+  /* background-color: green; */
+  color: var(--text-default);
+}
+
+.marketPara {
+  width: 59%;
+  font-size: 1em;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.marketContentBox {
+  width: 100%;
+  display: grid;
+  margin-top: 30px;
+  position: relative;
+  /* background-color: brown; */
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+}
+
+.marketCard {
+  display: flex;
+  gap: 20px;
+  width: 30%;
+  z-index: 2;
+  align-items: start;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+.marketCard:not(:first-child) {
+  margin-top: -130px;
+}
+
+.marketCard:nth-child(odd) {
+  justify-self: start;
+}
+
+.marketCard:nth-child(even) {
+  justify-self: end;
+}
+
+.marketCard > img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  /* background-color: coral; */
+}
+
+.marketCardName {
+  width: 100%;
+  line-height: 1.1;
+  font-size: 2.5em;
+  font-weight: 500;
+  /* background-color: yellowgreen; */
+}
+
+.marketCardPara {
+  font-size: 1.2em;
+}
+
+.marketCard:nth-child(1) .marketCardPara {
+  width: 85%;
+}
+
+.marketCardPara {
+  width: 95%;
+  color: #bfbfc7;
+  /* background-color: blueviolet; */
+}
+
+.marketCard:nth-child(3) {
+  width: 52%;
+  z-index: 1;
+  margin-top: -24%;
+  margin-bottom: 10%;
+}
+
+/* .marketCard:nth-child(3) .marketCardPara,
+.marketCard:nth-child(3) .marketCardName {
+  width: 70%;
+  margin: 0 auto;
+} */
+
+.marketPath,
+.marketPath2 {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  right: -50px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* background-color: black; */
+}
+
+.marketPath2 {
+  top: 42%;
+  right: 20px;
+}
+
+.marketSpotLight {
+  position: absolute;
+  left: -16%;
+  bottom: 0%;
+  width: 420px;
+  z-index: 100;
+  height: 380px;
+  opacity: 0.39;
+  filter: blur(170px);
+  background: var(--text-default);
+}
+
+.marketLinearGradient {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  opacity: 0.1;
+  filter: blur(12px);
+  background-color: var(--text-default);
+}
+
+/* .marketLinearGradientBlocker {
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  left: 0%;
+  bottom: -2.5%;
+  background-color: var(--bg-default);
+  background-color: red;
+} */
+
+/* mobile start */
+@media (max-width: 1023px) {
+  .marketBox {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    /*  */
+    /* background-color: red; */
+  }
+
+  .marketContainer {
+    width: 80%;
+    gap: 20px;
+    /*  */
+    /* background-color: blue; */
+  }
+
+  .marketHeading {
+    width: 100%;
+    font-size: 1.9em;
+    letter-spacing: -0.2px;
+    /*  */
+    /* background-color: green; */
+  }
+
+  .marketPara {
+    width: 100%;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+    /*  */
+    /* background-color: aqua; */
+  }
+
+  .marketContentBox {
+    gap: 70px;
+    /*  */
+    /* background-color: rgb(30, 255, 0); */
+  }
+
+  .marketCard {
+    width: 70%;
+    gap: 15px;
+    /*  */
+    /* background-color: rgb(179, 0, 255); */
+  }
+
+  .marketCard:not(:first-child) {
+    margin-top: 0px;
+    /*  */
+  }
+
+  .marketCard:nth-child(odd) {
+    justify-self: start;
+  }
+
+  .marketCard:nth-child(even) {
+    text-align: right;
+    /*  */
+  }
+
+  .marketCard:first-child > img {
+    margin-bottom: 0px;
+    width: 90%;
+    /*  */
+  }
+
+  .marketCard:nth-child(2) > img {
+    margin-bottom: 0px;
+    margin-left: auto;
+    /* background-color: red; */
+    /*  */
+  }
+
+  .marketCardName {
+    width: 100%;
+    font-size: 1.25em;
+    line-height: 1.05;
+    /*  */
+  }
+
+  .marketCard:nth-child(1) .marketCardPara {
+    width: 85%;
+    /* background-color: rgb(160, 138, 180); */
+  }
+
+  .marketCardPara {
+    width: 100%;
+    font-size: 0.95em;
+    line-height: 1.35;
+
+    /*  */
+  }
+
+  .marketCard:nth-child(3) {
+    width: 70%;
+    margin-top: 0%;
+    /*  */
+  }
+
+  .marketCard:nth-child(3) .marketCardPara,
+  .marketCard:nth-child(3) .marketCardName {
+    width: 80%;
+    margin: 0;
+    /*  */
+  }
+
+  .marketPath,
+  .marketPath2 {
+    display: none;
+    top: 40%;
+    width: 140%;
+    right: -20px;
+    /*  */
+    /* background-color: white; */
+  }
+
+  .marketPath2 {
+    top: 62%;
+    right: -80px;
+    /*  */
+    /* background-color: rgb(78, 78, 78); */
+  }
+
+  .marketSpotLight {
+    left: -25%;
+    width: 240px;
+    bottom: -10%;
+    height: 230px;
+    filter: blur(100px);
+    /*  */
+  }
+
+  .marketLinearGradient {
+    bottom: -0.2%;
+    height: 20px;
+    /*  */
+  }
+
+  /* 
+  .marketLinearGradientBlocker {
+    bottom: -7.5%;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    left: 0%;
+    background-color: var(--bg-default);
+    background-color: red;
+  } */
+}
+/* mobile end */
+
+/* tablet start */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .marketHeading {
+    font-size: 2.5em;
+  }
+
+  .marketPara {
+    font-size: 1.5em;
+    /*  */
+    /* background-color: aqua; */
+  }
+
+  .marketCardName {
+    font-size: 2em;
+    /*  */
+  }
+
+  .marketCardPara {
+    font-size: 1.5em;
+    /*  */
+  }
+
+  .marketCard:nth-child(3) {
+    width: 70%;
+    margin-top: 0%;
+    /*  */
+  }
+
+  .marketCard:nth-child(3) .marketCardPara,
+  .marketCard:nth-child(3) .marketCardName {
+    width: 80%;
+    margin: 0;
+    /*  */
+  }
+
+  .marketPath2 {
+    top: 60%;
+    right: -140px;
+    /*  */
+    /* background-color: rgb(78, 78, 78); */
+  }
+}
+/* tablet end */
+
+/* smaller laptop start */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* .marketBox {
+    cursor: default;
+    padding-top: 30px;
+    position: relative;
+    background-color: red;
+  } */
+
+  .marketContainer {
+    width: 80%;
+    /*  */
+  }
+
+  .marketHeading {
+    width: 75%;
+    /*  */
+  }
+
+  .marketPara {
+    width: 70%;
+    /*  */
+  }
+
+  .marketCard {
+    gap: 10px;
+    width: 40%;
+    /* background-color: yellow; */
+  }
+}
+/* smaller laptop end */

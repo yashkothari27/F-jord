@@ -1,0 +1,84 @@
+.mySwiper .swiper-slide {
+  opacity: 0.55;
+  transition: opacity 0.3s ease-in-out;
+}
+/* class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" */
+/* class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-next" */
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1 !important;
+}
+
+.swiper-pagination {
+  color: black;
+  display: flex;
+  width: auto;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.511);
+  border-radius: 10px;
+  padding: 5px 10px;
+  transform: translateX(-50%);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  border-radius: 999px;
+  color: white;
+  background-color: #52a5e4;
+  height: calc(var(--swiper-navigation-size) / 30 * 40);
+  width: calc(var(--swiper-navigation-size) / 30 * 40);
+  transition: all 0.2s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.655);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 2em;
+  /* background-color: red; */
+}
+
+@media (max-width: 640px) {
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    transform: scale(1.1);
+    background-color: white;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: rgba(0, 0, 0, 0.655);
+    background-color: white;
+    height: calc(var(--swiper-navigation-size) / 35 * 35);
+    width: calc(var(--swiper-navigation-size) / 35 * 35);
+    /* background-color: red; */
+  }
+}
+
+/* position: absolute;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color)); */

@@ -1,0 +1,405 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "odosans";
+  src: url("/fonts/odosans.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.odosans {
+  font-family: "odosans", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "odosansBold";
+  src: url("/fonts/odosansBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.odosansBold {
+  font-family: "odosansBold", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "arizona";
+  src: url("/fonts/arizona.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.arizona {
+  font-family: "arizona", Arial, sans-serif;
+}
+
+:root {
+  --bg-default: #01021e;
+  --bg-light: #091433;
+  --accent: #52a5e4;
+  --bg-placehover: #1a1b34;
+  --footer-bottom: #0b0c27;
+  --text-default: #52a5e4;
+
+  font-family: "Urbanist", sans-serif;
+  /* font-family: serif; */
+  /* font-family: "Roboto", sans-serif; */
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--bg-default);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+/* Teaser Card Start */
+
+.gradientbackgroundHover {
+  background: linear-gradient(
+    300deg,
+    #41a0ff,
+    #41a0ff,
+    #00ffbf,
+    #41a0ff,
+    #41a0ff,
+    #00ffbf,
+    #41a0ff,
+    #41a0ff
+  );
+  background-size: 300% 300%;
+  animation: gradient-animation 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer-bg {
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.1) 25%,
+    rgba(255, 255, 255, 0.1) 40%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.1) 60%,
+    rgba(255, 255, 255, 0.1) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 5s infinite alternate-reverse ease-in-out;
+}
+
+/* Teaser Card End */
+
+.spinner {
+  width: 4vw;
+  height: 4vw;
+  position: absolute; /* Position it relative to videoContainer */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+}
+
+.double-bounce1,
+.double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #01021e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.double-bounce1 {
+  background-color: #ffffff;
+}
+
+.double-bounce2 {
+  animation-delay: -1s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+/* Hide increment start */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  appearance: texfield;
+  -moz-appearance: textfield;
+}
+/* Hide increment end */
+
+button {
+  border: none;
+  z-index: 100;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 13px 35px;
+  font-family: inherit;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  /* background: linear-gradient(180deg, #52a5e4 0%, #316bde 100%); */
+  background-color: var(--text-default);
+  transition: all 0.2s ease-in-out;
+}
+
+button:active {
+  scale: 0.8;
+  transition: all 0.1s ease-in-out;
+}
+
+button a {
+  color: white;
+}
+
+.orangeBtn {
+  color: white !important;
+  background-color: #ff591c !important;
+}
+
+.orangeBtn:hover {
+  color: #ff591c !important;
+  background-color: white !important;
+  border-bottom: 1px solid #ff591c !important;
+}
+
+.blackBtn {
+  color: rgb(0, 0, 0) !important;
+  background-color: #ffffff !important;
+}
+
+.blackBtn:hover {
+  color: #ffffff !important;
+  background-color: rgb(0, 0, 0) !important;
+  border-bottom: 1px solid #ffffff !important;
+}
+
+/* flaotiong btn start */
+.gradient-background {
+  background: linear-gradient(
+    300deg,
+    #ff591c,
+    #ff591c,
+    #f5af19,
+    #ff591c,
+    #ff591c,
+    #f5af19,
+    #ff591c,
+    rgb(255, 89, 28)
+  );
+  background-size: 300% 300%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+.gradient-background:hover {
+  /* background: white; */
+  background: linear-gradient(
+    300deg,
+    #ffffff,
+    #ffffff
+      /* #ffffff,
+    #ffffff,
+    #bababb,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #bababb,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff */
+  );
+  /* background-size: 300% 300%; */
+  /* animation: gradient-animation 5s ease infinite; */
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* flaotiong btn end */
+
+.apexcharts-toolbar,
+.apexcharts-menu {
+  color: white;
+  padding: 5px !important;
+  /* border: 1px solid white; */
+  background: var(--bg-default) !important;
+  /* Remove border if needed */
+}
+
+.customBtn {
+  color: var(--text-default) !important;
+  background-color: white;
+}
+
+.react-tel-input {
+  width: max-content;
+}
+
+.react-tel-input .form-control,
+.react-tel-input .flag-dropdown,
+.react-tel-input .flag-dropdown:hover {
+  border: none;
+  background-color: transparent;
+}
+
+.react-tel-input .form-control {
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  caret-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  -webkit-text-fill-color: white;
+}
+
+.customKYCAuto input:-webkit-autofill,
+.customKYCAuto input:-webkit-autofill:hover,
+.customKYCAuto input:-webkit-autofill:focus,
+.customKYCAuto input:-webkit-autofill:active {
+  caret-color: rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  -webkit-text-fill-color: black;
+}
+
+.customContact input:-webkit-autofill,
+.customContact input:-webkit-autofill:hover,
+.customContact input:-webkit-autofill:focus,
+.customContact input:-webkit-autofill:active {
+  caret-color: var(--bg-default);
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  -webkit-text-fill-color: var(--bg-default);
+}
+
+.customPDF input[type="file"] {
+  display: flex;
+  /* width: 50%; */
+  align-items: center;
+  justify-items: center;
+}
+
+.customPDF input[type="file"]::file-selector-button {
+  display: block;
+  font-weight: 600;
+  padding: 4px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  color: var(--text-default);
+  border: 2px solid var(--text-default);
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #122448;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #122448;
+  border: 2px solid #ffffff69;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--bg-light);
+}
+
+.scrollerBG::-webkit-scrollbar-track {
+  background: rgb(209, 207, 207);
+}
+
+.scrollerBG::-webkit-scrollbar-thumb {
+  background: #52a5e4;
+}
+
+.scrollerBG::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0);
+}
+
+@media (min-width: 640px) {
+  button:hover {
+    background: transparent;
+    border: 1px solid var(--text-default);
+    -webkit-box-shadow: 1px 1px 45px 0px rgba(255, 255, 255, 0.329);
+    -moz-box-shadow: 1px 1px 45px 0px rgba(255, 255, 255, 0.329);
+    box-shadow: 1px 13px 35px 0px #ffffff2b;
+  }
+}
+
+@media (max-width: 640px) {
+  button {
+    padding: 11px 22px;
+    border: 1px solid transparent;
+    /* background: linear-gradient(180deg, #52a5e4 0%, #316bde 100%); */
+    background-color: var(--text-default);
+    transition: all 0.2s ease-in-out;
+  }
+}

@@ -1,0 +1,279 @@
+.contactUs {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  cursor: default;
+  /* background-color: #091433; */
+  /* background-color: red; */
+  justify-content: center;
+  background-image: url("../assets/SVG/contactUsSVG.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% + 380px);
+  background-position-y: calc(100% + 150px);
+}
+
+.contactUs .leftcontainer {
+  width: 40%;
+  height: 80%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  gap: 50px;
+  /* background-color: rebeccapurple; */
+  padding: 0% 2.5%;
+}
+
+.contactUs .leftcontainer h1 {
+  font-size: 40px;
+  font-weight: 600px;
+}
+
+.contactUs .leftcontainer p {
+  font-size: 15px;
+}
+
+.contactUs .leftcontainer .leftRow .phone,
+.contactUs .leftcontainer .leftRow .mail,
+.contactUs .leftcontainer .leftRow .location {
+  display: flex;
+  gap: 10px;
+  /* color: white; */
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all;
+  width: max-content;
+  padding: 10px 15px;
+  border-radius: 8px;
+  align-items: center;
+  text-decoration: none;
+  transition-duration: 250ms;
+  border: 1.5px solid transparent;
+}
+
+/* .contactUs .leftcontainer .leftRow .phone:hover,
+.contactUs .leftcontainer .leftRow .mail:hover,
+.contactUs .leftcontainer .leftRow .location:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+  border: 1.5px solid white;
+} */
+
+.contactUs .leftcontainer .leftRow:last-child {
+  display: flex;
+  gap: 20px;
+}
+
+.contactUs .leftcontainer .leftRow:last-child a {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  /* background-color: white; */
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 250ms;
+  transform: translateY(0px);
+  border: 2px solid transparent;
+}
+
+.contactUs .leftcontainer .leftRow:last-child a:hover {
+  color: white;
+  background-color: black;
+  transform: translateY(-3px);
+  border: 2px solid var(--text-default);
+}
+
+.contactUs .rightcontainer {
+  width: 50%;
+  height: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: yellow; */
+}
+
+.contactUs .rightcontainer .rightContainerBox {
+  display: flex;
+  gap: 30px;
+  padding: 5%;
+  font-weight: 400;
+  color: var(--bg-default) !important;
+  font-size: 16px;
+  border-radius: 18px;
+  flex-direction: column;
+  background-color: #01021eef;
+  border: 1px solid var(--text-default);
+  box-shadow: 3px -1px 61px -27px rgba(255, 255, 255, 0.5);
+}
+
+.contactUs .rightcontainer .rightContainerBox h6 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.contactUs .rightcontainer .rows {
+  gap: 25px;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.contactUs .rightcontainer .inputgroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactUs .rightcontainer .inputgroup input,
+.contactUs .rightcontainer .messagegroup textarea {
+  padding: 10px;
+  outline: none;
+  border-radius: 8px;
+  border: 1.25px solid var(--text-default);
+}
+
+.contactUs .rightcontainer .messagegroup {
+  display: flex;
+  margin-bottom: 12px;
+  flex-direction: column;
+}
+
+.contactUs .rightcontainer .messagegroup label,
+.contactUs .rightcontainer .inputgroup label {
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+
+.contactUs .rightcontainer .messagegroup textarea {
+  resize: vertical;
+  min-height: 130px;
+  max-height: 180px;
+}
+
+.contactUs .rightcontainer .submiter {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.contactUs .rightcontainer .submiter input {
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 35px;
+  border-radius: 5px;
+  transition: all 250ms;
+  background-color: var(--text-default);
+}
+
+.contactUs .rightcontainer .submiter input:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1125px) {
+  .contactUs {
+    height: auto;
+    padding: 20px 0;
+    background-size: contain;
+  }
+
+  .contactUs .leftcontainer,
+  .contactUs .rightcontainer {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 2.5%;
+  }
+
+  .contactUs .rightcontainer .rightContainerBox {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .contactUs .rightcontainer .messagegroup textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 150px;
+  }
+
+  .contactUs .rightcontainer .rows {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 835px) {
+  .contactUs {
+    height: auto;
+    padding: 20px 0;
+    background-size: auto;
+    flex-direction: column;
+  }
+
+  .contactUs .leftcontainer,
+  .contactUs .rightcontainer {
+    width: 100%;
+    padding: 0 5%;
+    margin-bottom: 20px;
+  }
+
+  .contactUs .rightcontainer .rightContainerBox {
+    padding: 5%;
+  }
+
+  .contactUs .rightcontainer .rows {
+    flex-direction: column;
+  }
+}
+
+/*  */
+.inputgroup,
+.messagegroup {
+  position: relative;
+}
+
+.inputgroup label,
+.messagegroup label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.messagegroup label {
+  top: 15%;
+}
+
+.inputgroup input:focus + label,
+.inputgroup input:not(:placeholder-shown) + label,
+.messagegroup textarea:focus + label,
+.messagegroup textarea:not(:placeholder-shown) + label {
+  top: 0px;
+  left: 6px;
+  font-size: 11px !important;
+  color: var(--text-default);
+  padding: 2px 8px;
+  border-radius: 20px;
+  border-bottom: 1px solid var(--text-default);
+  background-color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  -webkit-text-fill-color: black;
+  transition: background-color 5000s ease-in-out 0s;
+}

@@ -1,0 +1,316 @@
+.learnBox {
+  /* height: 100vh; */
+  z-index: 110;
+  padding-top: 5%;
+  cursor: default;
+  margin-bottom: 5%;
+  position: relative;
+  background-color: var(--bg-default);
+  /* background-color: red; */
+}
+
+.learnContainer {
+  display: flex;
+  gap: 35px;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: green; */
+}
+
+.learnHeading {
+  /* width: 55%; */
+  line-height: 1.1;
+  font-weight: 600;
+  font-size: 3.2em;
+  text-align: left;
+  letter-spacing: -1.2px;
+  /* background-color: blue; */
+  color: var(--text-default);
+}
+
+.learnPara {
+  /* width: 75%; */
+  font-size: 1.2em;
+  text-align: left;
+  /* background-color: rgb(0, 247, 255); */
+}
+
+.learnCardBox {
+  width: 80%;
+  display: grid;
+  grid-gap: 50px;
+  margin-top: 30px;
+  /* background-color: rgb(187, 255, 0); */
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.learnCard {
+  display: flex;
+  gap: 20px;
+  height: auto;
+  padding: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+  text-overflow: ellipsis;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  border: 1px solid #414141de;
+  border-right: none;
+  border-bottom: none;
+  background: linear-gradient(
+    109.12deg,
+    #090a33 -7.41%,
+    rgba(9, 10, 51, 0) 99.06%
+  );
+  /* background-color: rgb(104, 0, 0); */
+}
+
+.learnCardLHS {
+  width: 100%;
+  padding-top: 2%;
+  gap: 10%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+/* .learnCard:nth-child(odd) {
+  justify-self: start;
+}
+
+.learnCard:nth-child(even) {
+  justify-self: end;
+} */
+
+/* .learnCard > img {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+} */
+
+.learnCardName {
+  font-weight: 600;
+  font-size: 2.1em;
+  line-height: 1.2;
+  cursor: pointer;
+  letter-spacing: -0.3px;
+  color: var(--text-default);
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+  /* background-color: rgb(139, 0, 253); */
+}
+
+.learnCardName:hover {
+  color: #52a5e490;
+}
+
+.learnCardPara {
+  color: #888899;
+  color: #c5c5ca;
+  cursor: pointer;
+  font-size: 1.1em;
+  /* line-height: 1.2; */
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+  /* background-color: rgb(240, 0, 253); */
+}
+
+.learnCardPara:hover {
+  color: #c5c5ca90;
+}
+
+.leanCardCharts {
+  width: 50%;
+  /* flex: 1; */
+}
+
+.LearnSpotLight {
+  position: absolute;
+  right: -80px;
+  bottom: -10px;
+  width: 500px;
+  z-index: 100;
+  height: 300px;
+  opacity: 0.4;
+  filter: blur(150px);
+  background: var(--text-default);
+  transform: translate(50%, 50%) scale(1);
+}
+
+/* mobile start */
+@media (max-width: 1023px) {
+  .learnBox {
+    padding-top: 5%;
+    /* padding-bottom: 0%; */
+    /*  */
+  }
+
+  .learnContainer {
+    width: 85%;
+    gap: 20px;
+    /*  */
+  }
+
+  .learnHeading {
+    width: 100%;
+    line-height: 1;
+    font-size: 1.8em;
+    letter-spacing: -0.2px;
+    /*  */
+  }
+
+  .learnPara {
+    width: 100%;
+    font-size: 0.95em;
+    /*  */
+  }
+
+  .learnCardBox {
+    width: 100%;
+    grid-gap: 40px;
+    margin-top: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    /*  */
+  }
+
+  .learnCard {
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    flex-direction: column;
+    /*  */
+  }
+
+  .learnCardLHS {
+    width: 100%;
+  }
+
+  .leanCardCharts {
+    width: 100%;
+  }
+
+  /* .learnCard > img {
+    width: 45px;
+  } */
+
+  .learnCardName {
+    font-size: 1.2em;
+    margin-bottom: 5px; /*  */
+  }
+
+  .learnCardPara {
+    font-size: 0.9em;
+    /*  */
+  }
+
+  .LearnSpotLight {
+    width: 400px;
+    right: -120px;
+    opacity: 0.4;
+    bottom: -50px;
+    height: 150px;
+    filter: blur(90px);
+    /*  */
+  }
+}
+/* mobile end */
+
+/* tablet start */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .learnBox {
+    padding-bottom: 5%;
+    /*  */
+  }
+
+  .learnHeading {
+    font-size: 2.4em;
+    /*  */
+  }
+
+  .learnPara {
+    font-size: 1.2em;
+    /*  */
+  }
+
+  .learnCardBox {
+    grid-gap: 45px;
+    margin-top: 20px;
+    /*  */
+  }
+
+  .learnCard {
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    flex-direction: row;
+    /*  */
+  }
+
+  .learnCardName {
+    font-size: 1.7em;
+    /*  */
+  }
+
+  .learnCardPara {
+    font-size: 1.2em;
+    /*  */
+  }
+}
+/* tablet end */
+
+/* smaller laptop start */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .learnBox {
+    padding-bottom: 5%;
+  }
+
+  .learnContainer {
+    width: 80%;
+    /*  */
+  }
+
+  .learnHeading {
+    width: 75%;
+    /*  */
+  }
+
+  .learnPara {
+    width: 80%;
+    /*  */
+  }
+
+  .learnCardBox {
+    width: 100%;
+    grid-gap: 50px;
+    /*  */
+  }
+
+  .learnCard {
+    gap: 15px;
+    /* width: 87%; */
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    /*  */
+  }
+
+  /* .learnCard > img {
+    width: 50px;
+  } */
+
+  .learnCardName {
+    font-size: 1.4em;
+    /*  */
+  }
+
+  .learnCardPara {
+    font-size: 0.99em;
+    /*  */
+  }
+}
+/* smaller laptop end */

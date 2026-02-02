@@ -1,0 +1,180 @@
+.compareBox {
+  height: 100vh;
+  cursor: default;
+  padding-bottom: 60px;
+  /* background-color: red; */
+}
+
+.compareContainer {
+  width: 72%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: green; */
+  justify-content: space-evenly;
+}
+
+.compareHeading {
+  line-height: 1.1;
+  font-weight: 600;
+  font-size: 1.8em;
+  text-align: center;
+  letter-spacing: -1.2px;
+  /* background-color: aqua; */
+}
+
+.compareCardBox {
+  display: grid;
+  grid-gap: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: orange; */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.compareCard {
+  width: 290px;
+  height: 130px;
+  padding: 35px;
+  border-radius: 10px;
+  border: 1px solid #414141de;
+  border-right: none;
+  border-bottom: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-image: url("../../assets/Images/compare.png"); */
+}
+
+.compareCardName {
+  width: 60%;
+  font-size: 1.2em;
+  font-weight: 500;
+  /* background-color: blue; */
+}
+
+.compareBtn {
+  font-size: 0.9em;
+  padding: 12px 20px;
+  background: var(--text-default);
+}
+
+/* mobile start */
+@media (max-width: 1023px) {
+  .compareBox {
+    height: auto;
+    padding: 65px 0px;
+    /*  */
+  }
+
+  .compareContainer {
+    gap: 25px;
+    /*  */
+  }
+
+  .compareHeading {
+    font-size: 1.4em;
+    letter-spacing: -0.3px;
+    /*  */
+  }
+
+  .compareCardBox {
+    grid-gap: 20px;
+    /*  */
+  }
+
+  .compareCard {
+    /* width: 120px; */
+    width: 30vw;
+    height: 90px;
+    padding: 20px;
+    /*  */
+  }
+
+  .compareCardName {
+    width: 100%;
+    font-size: 0.9em;
+    /*  */
+  }
+
+  .compareBtn {
+    font-size: 0.8em;
+  }
+}
+/* mobile end */
+
+/* tablet start */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .compareBox {
+    padding: 60px 0px;
+    /*  */
+  }
+
+  .compareHeading {
+    font-size: 2em;
+    margin-bottom: 15px;
+    letter-spacing: -0.2px;
+    /*  */
+  }
+
+  .compareCardBox {
+    grid-gap: 40px;
+    /*  */
+  }
+
+  .compareCard {
+    width: 200px;
+    height: 140px;
+    padding: 15px;
+    /*  */
+  }
+
+  .compareCardName {
+    font-size: 1.1em;
+    /*  */
+  }
+}
+/* tablet end */
+
+/* smaller laptop start */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .compareBox {
+    height: 70vw;
+    padding: 35px 0px;
+    /* background-color: red; */
+    /*  */
+  }
+
+  .compareContainer {
+    width: 80%;
+    /*  */
+  }
+
+  .compareHeading {
+    font-size: 2em;
+    letter-spacing: -0.2px;
+    /*  */
+  }
+
+  .compareCardBox {
+    grid-gap: 30px;
+    /*  */
+  }
+
+  .compareCard {
+    height: 120px;
+    width: 270px;
+  }
+}
+/* smaller laptop end */
+
+/* medium laptop start */
+@media (min-width: 1280px) and (max-width: 1400px) {
+  .compareBox {
+    height: 50vw;
+    /*  */
+  }
+}
+/* medium laptop end */
