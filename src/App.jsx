@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 import Header from "./LandingPage/Header/Header";
 import Footer from "./LandingPage/Footer/Footer";
 import Home from "./LandingPage/Home/Home";
-import Faq from "./LandingPage/FAQ/Faq";
+import Faq from "./LandingPage/Faq/Faq";
 import Learn from "./LandingPage/Learn/Learn";
 import MarketPlace from "./LandingPage/MarketPlace/MarketPlace";
 import ListProperty from "./LandingPage/ListProperty/ListProperty";
