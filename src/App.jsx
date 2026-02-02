@@ -28,7 +28,7 @@ import ContactUs from "./InnerPagesHome/ContactUs";
 import LoginPage from "./Auth/Login";
 import { toast } from "react-toastify";
 import ProtectedRoute from "./Auth/ProtectedRoute";
-import RwaTokens from "./InnerPagesHome/rwaTokens";
+import RwaTokens from "./InnerPagesHome/RwaTokens";
 import NotFoundPage from "./NotFoundPage";
 import ResetPsd from "./Auth/ResetPsd";
 import AdminPanel from "./AdminPanel/AdminPanel";
